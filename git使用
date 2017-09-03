@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 ﻿本地项目上传到github
 1.git init (生成关联文件夹.git)
+=======
+本地项目上传到github
+1.git init (初始化成 git版本控制系统)
+>>>>>>> 0aa02d7e85b1e36fe1aa60ade7418965ebacf523
 2.git add . (将项目工作区文件添加到暂存区)
 3.git commit -m "注释" (将暂存区文件提交到本地仓库)
 4.github创建repository获得地址
