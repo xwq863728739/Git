@@ -1,0 +1,14 @@
+本地项目上传到github
+1.git init (生成关联文件夹.git)
+2.git add . (将项目工作区文件添加到暂存区)
+3.git commit -m "注释" (将暂存区文件提交到本地仓库)
+4.github创建repository获得地址
+5.git remote add origin url (本地仓库关联到github)
+	若出错：先git remote rm origin
+	在执行上面那句代码
+6.git push -u origin master (代码由本地上传到github仓库)
+
+关联好后，提交文件只需执行2、3、6
+
+获取github更新代码
+git pull
