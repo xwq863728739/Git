@@ -6,6 +6,7 @@
 1.git init (初始化成 git版本控制系统)
 >>>>>>> 0aa02d7e85b1e36fe1aa60ade7418965ebacf523
 2.git add . (将项目工作区文件添加到暂存区)
+这里可以执行 git diff 文件名 查看修改的与源文件的不同
 3.git commit -m "注释" (将暂存区文件提交到本地仓库)
 4.github创建repository获得地址
 5.git remote add origin url (本地仓库关联到github,origin为指定的仓库名字
@@ -19,6 +20,18 @@
 获取github更新代码
 git pull
 
+
 github文件修改后本地需要git pull更新代码再上传，不然会出错
+
+git status 查看状态
+
+回退版本 git reset --hard HEAD^ 回退一个版本
+	git reset --hard HEAD~100 回退一百个版本
+切换到任意版本：
+	git reflog  查看历史版本号
+	git reset --hard 版本号 切换到对应版本
+解决每次提交输入用户密码：
+	git config --global credential.helper store 再次提交后用户密码都会被记住啦
+	
 
 1、安装git时注意填入密码，梦飞本机密码为123456789
